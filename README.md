@@ -1,4 +1,5 @@
 # Appendix for HF-SNN
+=====================
 &nbsp; &nbsp; According to Section 3, binary output of neurons in SNN have high frequency. Moreover, the convolutional operation of two signals in spatial domain corresponds to the multiplication operation in frequency domain. Thus, increasing the frequency of convolutional kernel weights can reduce the information loss in SNN. 
 &nbsp; &nbsp; Given a input signal <a href="https://www.codecogs.com/eqnedit.php?latex=i(x)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?i(x)" title="i(x)" /></a>, and system function <a href="https://www.codecogs.com/eqnedit.php?latex=w(x)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?w(x)" title="w(x)" /></a>, we can get
 <div align=center><a href="https://www.codecogs.com/eqnedit.php?latex=i(x)&space;\otimes&space;w(x)&space;=&space;DFT(i(x))DFT(w(x))&space;=&space;I(\mu)W(\mu)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?i(x)&space;\otimes&space;w(x)&space;=&space;DFT(i(x))DFT(w(x))&space;=&space;I(\mu)W(\mu)" title="i(x) \otimes w(x) = DFT(i(x))DFT(w(x)) = I(\mu)W(\mu)" /></a></div align=center>
