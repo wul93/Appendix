@@ -1,4 +1,4 @@
-      Appendix for HF-SNN
+      # Appendix for HF-SNN
          =============
 
 &nbsp; &nbsp; According to Section 3, binary output of neurons in SNN have high frequency. Moreover, the convolutional operation of two signals in spatial domain corresponds to the multiplication operation in frequency domain. Thus, increasing the frequency of convolutional kernel weights can reduce the information loss in SNN. 
